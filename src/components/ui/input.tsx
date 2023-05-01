@@ -177,9 +177,9 @@ export const Input = (props: InputProps) => {
                 <path
                   d="M1.8335 4L4.46508 6.5L10.1668 1.5"
                   className="stroke-white"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                 />
               </svg>
             </span>

@@ -23,6 +23,7 @@ module.exports = {
         "purple-soft-one": "#F5EFFF",
         "purple-soft-two": "#ECE3FE",
         "dark-purple": "#4D1CAB",
+        "yellow-star": "#F3A939",
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",

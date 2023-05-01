@@ -11,7 +11,7 @@ const poppins = Poppins({
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
-    <main className={`${poppins.variable} font-sans`}>
+    <main className={`${poppins.variable} flex flex-col gap-y-32 font-sans`}>
       <Component {...pageProps} />
     </main>
   );
