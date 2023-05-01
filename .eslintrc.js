@@ -14,7 +14,8 @@ module.exports = {
     "plugin:@typescript-eslint/recommended",
     "plugin:tailwindcss/recommended",
     "plugin:prettier/recommended",
-    "plugin:import/typescript",
+    "plugin:storybook/recommended",
+    // "plugin:import/typescript",
     // "plugin:sort-export-all/recommended",
   ],
   plugins: [
@@ -24,6 +25,7 @@ module.exports = {
     // "import",
     // "sort-export-all",
   ],
+
   rules: {
     "@typescript-eslint/no-empty-interface": 0,
     "@typescript-eslint/no-explicit-any": 0,
@@ -31,7 +33,7 @@ module.exports = {
     "object-shorthand": [1, "always"],
     "tailwindcss/classnames-order": 1, // use prettier-plugin-tailwindcss
     "tailwindcss/no-arbitrary-value": 0,
-    "tailwindcss/no-custom-classname": 1,
+    "tailwindcss/no-custom-classname": 0,
     // "react/self-closing-comp": 1,
     // "import/order": [
     //   "warn",
@@ -55,6 +57,7 @@ module.exports = {
     //   },
     // ],
   },
+
   parser: "@typescript-eslint/parser",
   settings: {
     "import/resolver": {
